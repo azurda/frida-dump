@@ -6,8 +6,8 @@ This tool's purpose is to dump the memory of a running process. Although there a
 ### How to compile & load
 
 ```sh
-$ git clone git://github.com/oleavr/frida-agent-example.git
-$ cd frida-agent-example/
+$ git clone https://github.com/azurda/frida-dump.git
+$ cd frida-dump/
 $ pip install frida frida-tools
 $ npm install
 $ npm run build
