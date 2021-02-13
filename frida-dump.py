@@ -1,3 +1,16 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+"""frida-dump
+
+Tool to dump process memory matching a given PROTECTION (by default rw-),
+useful to obtain memory sections or calling it at will from a script.
+"""
+
+__author__ = 'Fernando Urbano'
+__version__ = '2020.12.1'
+__contact__ = 'fdiazmalaga@outlook.com'
+
 import os
 import sys
 
